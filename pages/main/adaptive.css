@@ -69,25 +69,26 @@
     }
 
     .cards-wrapper {
-        width: 580px;
+        width: 620px;
     }
 
     .pets-cards {
-        left: -580px;
+        left: -620px;
     }
 
     .left-cards, .active, .right-cards {
         gap: 40px;
+        margin: 0 20px;
     }
 
     @keyframes move-left {
-        from {left: -580px;}
+        from {left: -620px;}
         to {left: 0px;}
     }
 
     @keyframes move-right {
-        from {left: -580px;}
-        to {left: -1160px;}
+        from {left: -620px;}
+        to {left: -1240px;}
     }
 
     .get-to-know-button {
@@ -382,14 +383,14 @@
     }
 
     .slider {
-        width: 270px;
+        width: 290px;
         height: 507px;
         justify-content: space-around;
         align-items: flex-start;
     }
 
     .cards-wrapper {
-        width: 270px;
+        width: 290px;
     }
 
 
@@ -398,20 +399,24 @@
     }
 
     .pets-cards {
-        width: 270px;
+        width: 290px;
         height: 435px;
-        left: -270px;
+        left: -290px;
         order: 1;
     }
 
+    .left-cards, .active, .right-cards {
+        margin: 0 10px;
+    }
+
     @keyframes move-left {
-        from {left: -270px;}
+        from {left: -290px;}
         to {left: 0px;}
     }
 
     @keyframes move-right {
-        from {left: -270px;}
-        to {left: -540px;}
+        from {left: -290px;}
+        to {left: -580px;}
     }
 
 
