@@ -1,0 +1,654 @@
+@media (min-width: 768px) and (max-width: 1279px)  {
+    .header-content {
+        padding: 30px 30px;
+    }
+
+    .start-screen {
+        height: 1165px;
+    }
+
+    .start-screen-content {
+        width: 74.09%;
+        height: 87.12%;
+        margin: 0 auto;
+        padding: 150px 40px 0;
+        justify-content: center;
+    }
+
+    .not-only-block {
+        width: 80.84%;
+        height: 31.72%;
+        margin-top: 0;
+    }
+
+    .make.friend.button {
+        margin: 0 auto;
+    }
+
+    .puppy-start {
+        margin-left: 140px;
+        height: 593px;
+        width: 569px;
+        margin-top: 100px;
+    }
+
+    .not-only-subheading {
+        margin: 0;
+    }
+
+    .about {
+        height: 1048px;
+    }
+
+    .about-content {
+        width: 56.9%;
+        height: 82.82%;
+        margin: 0 auto;
+        padding-top: 80px;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    .about-pets-img {
+        width: 300px;
+        height: 408px;
+        margin: 0;
+    }
+
+    .text-content {
+        width: 98.4%;
+        height: 43.78%;
+        margin: 0;
+    }
+
+    .pets-content {
+        width: 92.19%;
+        height: 79.48%;
+        margin: 0 auto;
+        padding: 80px 0 0;
+    }
+
+    .cards-wrapper {
+        width: 580px;
+    }
+
+    .pets-cards {
+        left: -580px;
+    }
+
+    .left-cards, .active, .right-cards {
+        gap: 40px;
+    }
+
+    @keyframes move-left {
+        from {left: -580px;}
+        to {left: 0px;}
+    }
+
+    @keyframes move-right {
+        from {left: -580px;}
+        to {left: -1160px;}
+    }
+
+    .get-to-know-button {
+        width: 36.72%;
+    }
+
+    .help {
+        height: 779px;
+    }
+
+    .help-content {
+        width: 82.03%;
+        height: 76.89%;
+        margin: 0 auto;
+        padding: 80px 0 0;
+    }
+
+    .help-content .list {
+        width: 100%;
+        height: 74.96%;
+        justify-content: space-between;
+        gap: 55px 0;
+    }
+
+    .help-item {
+        width: 170px;
+        height: 113px;
+    }
+
+    .donation {
+        height: 783px;
+    }
+
+    .donation-content {
+        width: 100%;
+        height: 100%;
+        padding: 80px 0 0 0;
+        margin: 0 auto;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+    }
+
+    .donation-content img {
+        margin-top: 60px;
+    }
+
+    .donation-content .content {
+        width: 49.48%;
+        height: 36.01%;
+    }
+
+    .credit.card img {
+        margin: 0 0 0 6px;
+    }
+
+
+    footer {
+        height: 639px;
+    }
+
+    .contacts-content {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        justify-content: center;
+        gap: 60px;
+    }
+    
+    
+    .contacts-block {
+        width: 36.2%;
+        height: 36.62%;
+        margin: 30px 0 0 0;
+}
+
+    .location {
+        width: 39.32%;
+        height: 36.62%;
+        margin: 30px 0 0 0;
+
+}
+
+    .footer.puppy {
+        width: 300px; 
+        height: 310px;
+}
+
+.popup {
+    width: 682px;
+    height: 402px;
+}
+
+.popup-content {
+    width: 630px;
+    height: 350px;
+}
+
+.popup-img {
+    width: 350px;
+    height: 350px;
+}
+
+.popup-text {
+    width: 261px;
+    height: 303px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+.popup-title {
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.popup-subtitle {
+    margin-top: 10px;
+}
+
+.popup-description {
+    font-size: 13px;
+    line-height: 14.3px;
+    margin-top: 22px;
+}
+
+.popup-list {
+    margin-top: 15px;
+}
+
+.popup-list-item {
+    font-size: 15px;
+    line-height: 22.5px;
+}
+
+}
+
+
+@media(min-width: 320px) and (width < 768px) {
+
+
+    .header-content {
+        padding: 30px 20px;
+        height: 60px;
+    }
+
+    .subtitle {
+        margin-bottom: 0;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        height: 100vh;
+        right: -320px;
+        top: 0;
+        bottom:0;
+        width: 320px;
+        background-color: #292929;
+        z-index: 2;
+        transition: transform 0.5s ease;
+    }
+
+ 
+
+    nav {
+        margin: auto 0;
+    }
+
+    .navigation {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    } 
+
+
+    .nav-item a {
+        display: block;
+        font-size: 32px;
+        line-height: 51.2px;
+    }
+
+    .nav-item p {
+        display: block;
+        font-size: 32px;
+        line-height: 51.2px;
+    }
+
+    .header-content.open .menu {
+        transform: translateX(-100%);
+        visibility: visible;
+    }
+
+    .start-screen {
+        height: 823px;
+    }
+
+    .start-screen-content {
+        width: 93.75%;
+        height: 81.77%;
+        margin: 0 auto;
+        padding: 150px 10px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .not-only-block {
+        width: 100%;
+        height: 43.98%;
+        margin-top: 0;
+        align-items: center;
+    }
+
+    .not-only-heading {
+        font-size: 25px;
+        line-height: 32.5px;
+        text-align: center;
+        letter-spacing: 0.06em;
+    }
+
+    .not-only-subheading {
+        font-size: 15px;
+        line-height: 24px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .make.friend.button {
+        margin: 0 auto;
+    }
+
+    .puppy-start {
+        margin-left: 40px;
+        width: 260px;
+        height: 271.77px;
+    }
+
+    .about {
+        height: 974px;
+
+    }
+
+    .about-content {
+        width: 93.75%;
+        height: 91.37%;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding: 42px 10px 0;
+    }
+
+    .about-pets-img {
+        width: 260px;
+        height: 353.6px;
+        margin: 0;
+    }
+
+    .text-content {
+        width: 100%;
+        height: 55.5%;
+        margin: 0;
+        align-items: center;
+    }
+
+    .heading {
+        text-align: center;
+        font-size: 25px;
+        line-height: 32.5px;
+    }
+
+    .text-content .subheading {
+        text-align: justify;
+        padding: 0 15px;
+    }
+
+    .pets {
+        height: 791px;
+    }
+
+    .pets-content {
+        width: 93.75%;
+        height: 89.38%;
+        padding: 42px 10px 0;
+    }
+
+    .slider {
+        width: 270px;
+        height: 507px;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    .cards-wrapper {
+        width: 270px;
+    }
+
+
+    .arrow {
+        margin-top: 16px;
+    }
+
+    .pets-cards {
+        width: 270px;
+        height: 435px;
+        left: -270px;
+        order: 1;
+    }
+
+    @keyframes move-left {
+        from {left: -270px;}
+        to {left: 0px;}
+    }
+
+    @keyframes move-right {
+        from {left: -270px;}
+        to {left: -540px;}
+    }
+
+
+    .slider .arrow:nth-child(1) {
+        order: 2;
+    }
+
+    .slider .arrow:nth-child(3) {
+        order: 3
+    }
+
+    .help {
+        height: 745px;
+    }
+
+    .help-content {
+        width: 90.62%;
+        height: 88.72%;
+        padding: 42px 0 0 0;
+        margin: 0 auto;
+    }
+
+    .help-content .heading {
+        text-align: center;
+        font-size: 25px;
+        line-height: 32.5px;
+    }
+
+    .help-content .list {
+        width: 100%;
+        height: 83.96%;
+        gap: 29px;
+        justify-content: space-between;
+    }
+
+    .help-item {
+        width: 130px;
+        height: 87px;
+    }
+
+    .help-item img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .help-text {
+        font-size: 15px;
+        line-height: 16.5px;
+        margin: 0;
+    }
+
+    .donation {
+        height: 542.2px;
+    }
+
+    .donation-content {
+        padding: 42px 0 0 0;
+        margin: 0 auto;
+        width: 93.75%;
+        height: 84.51%;
+        flex-direction: column-reverse;
+    }
+
+    .donation-content img {
+        width: 260px;
+        height: 135.2px;
+    }
+
+    .donation-content .content {
+        width: 100%;
+        height: 61.33%;
+        align-items: center;
+    }
+
+    .donation-content .content .subheading {
+        font-size: 15px;
+        line-height: 24px;
+        text-align: center;
+        margin: 0;
+        letter-spacing: 0;
+    }
+
+    .legal.info {
+        text-align: justify;
+        padding: 0 10px;
+    }
+
+    .credit.card {
+        width: 281px;
+        height: 43px;
+    }
+
+    .credit-card-number {
+        font-size: 15px;
+        line-height: 16.5px;
+    }
+
+    footer {
+        height: 809px;
+
+    }
+
+    .contacts-content {
+        width: 93.75%;
+        height: 96.29%;
+        bottom: 0;
+        flex-direction: column;
+        padding: 30px 0 0 0;
+        margin: 0 auto;
+    }
+
+    .contacts-block {
+        width: 92.67%;
+        height: 26.7%;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .contacts-heading {
+        font-size: 25px;
+        line-height: 32.5px;
+        text-align: center;
+    } 
+
+    .mail {
+        width: 251px;
+    }
+
+    .phone {
+        width: 239px;
+    }
+
+    .location {
+        width: 100%;
+        height: 28.5%;
+        align-items: center;
+        margin-bottom: 40px;
+    } 
+
+    .location-heading {
+        max-width: 270px;
+        font-size: 25px;
+        line-height: 32.5px;
+        text-align: center;
+    }
+
+    .footer.puppy {
+        width: 260px;
+        height: 269px;
+    }
+
+
+    .popup-wrapper {
+        padding-left: 15px;
+        padding-top: 26px;
+    }
+
+    .popup-close {
+        right: 0;
+    }
+
+    .popup {
+        width: 270px;
+        height: auto;
+        min-height: 390px;
+        padding-bottom: 52px;
+    }
+    
+    .popup-content {
+        width: 240px;
+        height: auto;
+        flex-direction: row-reverse;
+        /* overflow-y: hidden; */
+        padding-top: 10px;
+        padding-bottom: 7px;
+    }
+    
+    
+    .popup-text {
+        width:220px;
+        height: auto;
+        margin: auto;
+    }
+
+    .popup-title {
+        text-align: center;
+        margin-left: 2px;
+    }
+    
+    .popup-subtitle {
+        text-align: center;
+    }
+    
+    .popup-img {
+        width: 0;
+        height: 0;
+    }
+    
+    .popup-description {
+        font-size: 13px;
+        line-height: 14.3px;
+        margin-top: 22px;
+        text-align: justify;
+    }
+    
+    .popup-list {
+        margin-top: 20px;
+    }
+
+    .popup-list-item {
+        line-height: 22.5px;
+    }
+    
+   
+
+    @font-face {
+        font-family: "Arial"; 
+        src: url("../../source/fonts/Arial.ttf") format("truetype"); 
+        font-style: normal; 
+      } 
+    
+      @font-face {
+        font-family: "Georgia"; 
+        src: url("../../source/fonts/Georgia.ttf") format("truetype"); 
+        font-style: normal; 
+      } 
+
+
+
+    
+
+
+
+
+
+
+
+
+
+}

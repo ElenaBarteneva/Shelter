@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Cozy House shelter | Our pets">
+        <title>Our pets</title>
+        <meta name="viewport" content="width=device-width, user-scalable=yes">
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="adaptive.css">
+        <link rel="icon" type="image/SVG" href="../../source/icons/favicon-32x32.png" sizes="32x32">
+        <script defer src="../../pages/our-pets/our-pets.js"></script>    
+    </head>
+    <body>
+        <div class="cover hidden">
+        </div>
+        <div class="popup-wrapper hidden">
+            <div class="popup">
+                <div class="popup-close">
+                    <img alt="close-button" src="../../source/icons/close.svg">
+                </div>
+                <div class="popup-content">
+                </div>
+            </div>
+        </div>
+        <div class="body_wrapper">
+        <header>
+            <div class="container">
+                <div class="header content">
+                    <div class="logo">
+                        <a href="../../index.html">
+                            <h1 class="logo">Cozy House</h1></a>
+                            <p class="subtitle">Shelter for pets in Boston</p>
+                    </div>
+                    <nav>
+                        <div class="menu">
+                            <ul class="navigation">
+                                <li class="nav-item">
+                                    <a href="../../index.html" class="about-the-shelter">About the shelter</a>
+                                </li>
+                                <li class="nav-item">
+                                    <p class="our-pets-link">Our pets</p>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="../../index.html#help" class="help-shelter">Help the shelter</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#contacts" class="contacts">Contacts</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="burger" class="hamburger-menu">
+                            <input id="menu-toggle" type="checkbox">
+                            <label class="menu-button" for="menu-toggle">
+                                <span></span>
+                            </label>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section id="our-friends" class="our-friends">
+                <div class="container">
+                    <div class="our-friends-content">
+                        <h3 class="heading">Our friends who<br>are looking for a house</h3>
+                        <div class="cards-container" id="popup">
+                            
+                        </div>
+                        <div class="cards-navigation">
+                            <button disabled id="first-page">&lt;&lt;</button>
+                            <button disabled id="previous-page">&lt;</button>
+                            <button class="active" id="active-page">1</button>
+                            <button id="next-page">&gt;</button>
+                            <button id="last-page">&gt;&gt;</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="contacts">
+            <div class="container">
+                <div class="contacts-content">
+                    <div class="contacts-block">
+                        <h3 class="contacts-heading">For questions and suggestions</h3>
+                        <div class="mail">
+                            <a href="mailto:email@shelter.com"><img alt="mail icon" src="../../source/icons/mail.svg"></a>
+                            <a href="mailto:email@shelter.com" class="e-mail">email@shelter.com</a>
+                        </div>
+                        <div class="phone">
+                            <a href="tel:+136745677554"><img alt="phone icon" src="../../source/icons/phone.svg"></a>
+                            <a href="tel:+136745677554" class="phone-number">+13 674 567 75 54</a>
+                        </div>
+                    </div>
+                    <div class="location">
+                        <h3 class="location-heading">We are waiting for your visit</h3>
+                        <div class="address">
+                            <a href="https://maps.app.goo.gl/Aimfsv8HCbN51Z4fA" target="_blank"><img alt="pin icon" src="../../source/icons/pin.svg"></a>
+                            <a href="https://maps.app.goo.gl/Aimfsv8HCbN51Z4fA" target="_blank" class="location-address">1 Central Street, Boston (entrance from the store)</a>
+                        </div>
+                        <div class="address">
+                            <a href="https://maps.app.goo.gl/UhoC6nbxLCNM4rRu6" target="_blank"><img alt="pin icon" src="../../source/icons/pin.svg"></a>
+                            <a href="https://maps.app.goo.gl/UhoC6nbxLCNM4rRu6" target="_blank" class="location-address">18 South Park, London </a>
+                        </div>
+                    </div>
+                    <img class="footer puppy" alt="footer puppy" src="../../source/images/footer-puppy.png">
+                </div>
+            </div>
+        </footer>
+        </div>
+    </body>
+</html>
